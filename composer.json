@@ -1,0 +1,27 @@
+{
+    "name": "difra/lib-security",
+    "description": "Filters and sanitizers",
+    "type": "library",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Ed Kutuev",
+            "email": "ed@napych.com"
+        }
+    ],
+    "dist": {
+        "url": "https://github.com/difra-org/lib-security/archive/1.0.0.zip",
+        "type": "zip"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:difra-org/lib-security.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Difra\\Security\\": "src"
+        }
+    }
+}
